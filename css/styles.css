@@ -377,7 +377,6 @@ line-height: 24px;
 .our_work {
     display: flex;
     text-align: center;
-    margin-top: 94px;
     margin-bottom: 50px;
     justify-content: center; 
 }
@@ -392,7 +391,16 @@ line-height: 24px;
     margin-right: 30px;
     margin-bottom: 94px;
 }
-
+.about_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
 
 /*==========end-about==========*/
 /*==========our-team==========*/
@@ -400,11 +408,10 @@ line-height: 24px;
 .team .container {
     background-color: #F5F4FA;
     width: auto;
-    height: 648px;
-   
+    height: 708px;
 }
 .team .our_team {
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
 }
 .team .employees {
@@ -427,10 +434,18 @@ line-height: 24px;
 margin-right: 30px;
 } 
 
-.position {
-    padding-bottom: 30px;
+.our_work
+{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top: 94px;
 }
-.our_work, 
 .our_team
 {
     font-family: 'Roboto', sans-serif;
@@ -441,8 +456,9 @@ line-height: 1,166;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-top: 94px;
+
 }
+
 .person_name {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -462,17 +478,24 @@ font-size: 16px;
 line-height: 1,187;
 text-align: center;
 letter-spacing: 0.03em;
+padding-bottom: 16px;
 color: #757575;
 }
 .social_list{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+    margin-right: 32px;
+    margin-left: 32px;
 }
 .social_list_link:hover .social_icon,
 .social_list_link:focus .social_icon {
     fill:white;
 } 
-
+.social_list_link:hover,
+.social_list_link:focus {
+    background-color: #2196F3;
+}
 
 .social_list_link {
     display: flex;
@@ -489,6 +512,48 @@ background-color: white;
 }
 
 /*==========end-our-team==========*/
+/*==============our customers=============*/
+.customers_box:hover .icon_link,
+.customers_box:focus .icon_link {
+    fill: var(--accent-color); 
+}
+.customers_box:hover,
+.customers_box:focus {
+    border: 1px solid #2196F3;   
+}
+.regular_customers {
+    display: flex;
+    justify-content: center;
+}
+.regular_customers {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.main_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.customers_box:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 /*==========contact-information==========*/
 
 .logo_footer {
