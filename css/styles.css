@@ -509,6 +509,7 @@ background-color: white;
 .social_icon {
     width: 20px;
     height: 20px;
+    fill:#AFB1B8;
 }
 
 /*==========end-our-team==========*/
@@ -520,6 +521,10 @@ background-color: white;
 .customers_box:hover,
 .customers_box:focus {
     border: 1px solid #2196F3;   
+}
+.icon_link {
+    fill:#AFB1B8;
+}
 }
 .regular_customers {
     display: flex;
