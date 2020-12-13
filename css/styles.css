@@ -177,7 +177,7 @@ box-sizing: border-box;
     .container_information_portfolio {
         display: flex;
         flex-direction: column;
-        padding-top: 60px;
+        margin-top: 60px;
     }
     .location_phone_email_portfolio:not(:last-child) {
         padding-bottom: 9px;
@@ -276,7 +276,9 @@ line-height: 1,142;
 letter-spacing: 0.02em;
 color: #757575;
 }
-
+.header_contact {
+    align-items: center;
+}
 .header_contact:hover,
 .header_contact:focus {
     color: var(--accent-color);
@@ -284,6 +286,11 @@ color: #757575;
 .address {
     font-style: normal;
 }
+
+.contact_icon {
+    fill: currentColor;
+    margin-right: 10px;
+} 
 
 /*==========end-header==========*/
 /*==========hero==========*/
@@ -525,10 +532,11 @@ background-color: white;
 .icon_link {
     fill:#AFB1B8;
 }
-}
+
 .regular_customers {
     display: flex;
     justify-content: center;
+    margin-top: 94px;
 }
 .regular_customers {
     font-family: 'Roboto', sans-serif;
@@ -543,6 +551,8 @@ background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 94px;
 }
 .customers_box {
     display: flex;
@@ -593,7 +603,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
                    /* убрать здесь */
-    padding-top: 60px;
+    margin-top: 60px;
 }
 .location_phone_email:not(:last-child) {
     padding-bottom: 9px;
@@ -624,5 +634,51 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+.connection {
+    display: flex;    
+ 
+flex-direction: column;
+margin-left: 70px;
+margin-top: 72px;
+}
+.invitation {
+font-family: 'Roboto', sans-serif;
+font-weight: 700px;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.social_list_footer {
+    display: flex;
+    justify-content: space-between;
+}
+.social_list_link_footer:hover .social_icon_footer,
+.social_list_link_footer:focus .social_icon_footer {
+    fill:white; 
+} 
+.social_list_link_footer:hover,
+.social_list_link_footer:focus {
+    background-color: #2196F3;
+}
 
+.social_list_link_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.social_box:not(:last-child) {
+    margin-right: 10px;
+}
+.social_icon_footer {
+    width: 20px;
+    height: 20px;
+    fill:#FFFFFF;
+}
 /*==========end-contact-information==========*/
