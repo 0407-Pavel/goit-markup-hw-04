@@ -42,7 +42,6 @@ text-align: center;
 .header_portfolio .logo_portfolio {
     display: flex;
     margin-right: 93px;
-    margin-left: 115px;
 }
 .navigation_list_item_portfolio:not(:last-child) {
     margin-right: 50px;
@@ -54,6 +53,7 @@ text-align: center;
 .navigation_portfolio {
     display: flex;
     align-items: center;
+    margin-left: 198px;
 }
 .navigation_list_portfolio {
     display: flex;
@@ -61,6 +61,7 @@ text-align: center;
 .address_list {
     display: flex;
     margin-left: 150px;
+    margin-right: 60px;
 }
 .mail_item {
     margin-right: 50px;
@@ -171,13 +172,12 @@ box-sizing: border-box;
         background-color: #2F303A;
         width: auto;
         height: 252px;
-        padding-left: 125px;
-        justify-content: flex-start;
     }
     .container_information_portfolio {
         display: flex;
         flex-direction: column;
         margin-top: 60px;
+        padding-left: 198px;
     }
     .location_phone_email_portfolio:not(:last-child) {
         padding-bottom: 9px;
@@ -211,7 +211,10 @@ box-sizing: border-box;
 
 /*==========end portfolio========*/    
 /*==========header==========*/
-
+.body_size {
+    width: 1600px;
+    margin: 0 auto;
+}
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -278,6 +281,7 @@ color: #757575;
 }
 .header_contact {
     align-items: center;
+    height: 16px;
 }
 .header_contact:hover,
 .header_contact:focus {
@@ -285,6 +289,7 @@ color: #757575;
 }
 .address {
     font-style: normal;
+    height: 16px;
 }
 
 .contact_icon {
@@ -596,14 +601,12 @@ color: #FFFFFF;
     background-color: #2F303A;
     width: auto;
     height: 252px;
-    justify-content: flex-start;
- padding-left: 135px; /* поставить здесь */
 }
 .container_information {
     display: flex;
     flex-direction: column;
-                   /* убрать здесь */
     margin-top: 60px;
+    margin-left: 215px;
 }
 .location_phone_email:not(:last-child) {
     padding-bottom: 9px;
