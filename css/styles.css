@@ -37,7 +37,8 @@ text-align: center;
     width: auto;
     height: 80px;
     border: 1px solid #ECECEC;
-    justify-content: center;
+    width: 1200px;
+    margin: auto;
 }
 .header_portfolio .logo_portfolio {
     display: flex;
@@ -46,22 +47,18 @@ text-align: center;
 .navigation_list_item_portfolio:not(:last-child) {
     margin-right: 50px;
 }
-.header_portfolio .address {
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .navigation_portfolio {
     display: flex;
     align-items: center;
-    margin-left: 198px;
 }
 .navigation_list_portfolio {
     display: flex;
 }
 .address_list {
     display: flex;
-    margin-left: 150px;
-    margin-right: 60px;
+    margin-left: 280px;
+    
 }
 .mail_item {
     margin-right: 50px;
@@ -146,77 +143,12 @@ box-sizing: border-box;
     padding-left: 24px;
     padding-bottom: 20px;
     }
-/*===========portfolio footer=========*/    
-.footer_logo_portfolio {
-        font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,192;
-    letter-spacing: 0.03em; 
-    padding-bottom: 20px;
-    } 
-    .start_name_footer {
-     color: #2196F3;
-    }
-    .finish_name_footer {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    }
-    .footer_contact_information_portfolio {
-        display: flex;
-        background-color: #2F303A;
-        width: auto;
-        height: 252px;
-    }
-    .container_information_portfolio {
-        display: flex;
-        flex-direction: column;
-        margin-top: 60px;
-        padding-left: 198px;
-    }
-    .location_phone_email_portfolio:not(:last-child) {
-        padding-bottom: 9px;
-    }
-    .location_portfolio {
-    font-family: 'Roboto', sans-serif;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2208px;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    }
-    .footer_contact_portfolio {
-    font-family: 'Roboto', sans-serif;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2238px;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    }
-
-/*==========end portfolio========*/    
+/*===========portfolio footer the same like index.html=========*/    
+    
 /*==========header==========*/
-.body_size {
-    width: 1600px;
-    margin: 0 auto;
-}
+
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
 }
 .header {
@@ -577,12 +509,13 @@ background-color: white;
 /*==========contact-information==========*/
 
 .logo_footer {
+    display: block;
     font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1,192;
-letter-spacing: 0.03em; 
-padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
 } 
 .start_name_footer {
  color: #2196F3;
@@ -599,17 +532,19 @@ color: #FFFFFF;
 .contact_information {
     display: flex;
     background-color: #2F303A;
-    width: auto;
-    height: 252px;
+    padding: 60px 0;
 }
 .container_information {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    margin-left: 215px;
+display: flex;
+flex-direction: column;   
 }
 .location_phone_email:not(:last-child) {
     padding-bottom: 9px;
+}
+.contact_and_icon {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
 }
 .location {
 font-family: 'Roboto', sans-serif;
@@ -638,11 +573,10 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .connection {
-    display: flex;    
- 
+display: flex;   
 flex-direction: column;
 margin-left: 70px;
-margin-top: 72px;
+margin-top: 12px;
 }
 .invitation {
 font-family: 'Roboto', sans-serif;
