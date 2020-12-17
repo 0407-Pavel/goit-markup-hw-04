@@ -107,9 +107,17 @@ text-align: center;
     justify-content: center;
     margin-bottom: 30px;
 }
+.border_focus:hover,
+.border_focus:focus {
+    display: block;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    outline: none;
+}
 .first_line,
 .second_line,
-.third_line /* :not(:last-child) */ {
+.third_line {
  margin-right: 30px;  
 }
 .first_line:hover, 
@@ -484,9 +492,10 @@ background-color: white;
 .customers_box:focus .icon_link {
     fill: var(--accent-color); 
 }
+
 .customers_box:hover,
 .customers_box:focus {
-    border: 1px solid #2196F3;   
+    border: 1px solid #2196F3;  
 }
 .icon_link {
     fill:#AFB1B8;
@@ -524,6 +533,7 @@ background-color: white;
     border-radius: 4px;
     cursor: pointer; 
 }
+
 .customers_box:not(:last-child) {
     margin-right: 30px;
 }
